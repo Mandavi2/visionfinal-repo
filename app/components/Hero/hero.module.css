@@ -1,0 +1,41 @@
+.heroSection{
+    margin-top: 5rem;
+    width: 100%;
+    min-height: 70vh;
+    background-image: url('../../assets/header_bg.png');
+    background-size: cover;
+    background-position: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+.heroText{
+    text-align: center;
+    color: var(--color-gray-200);
+    max-width: 800px;
+    margin-top: 140px;
+    letter-spacing: 2px;
+}
+.heroPara{
+    max-width: 780px;
+    font-weight: 400;
+    font-size: 35px;
+}
+.headBar{
+    width: 120px;
+    height: 10px;
+    
+    position: absolute;
+    top: 20.4rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+@media screen and (max-width: 600px){
+    .headBar{
+        width: 100px;
+        height: 8px;
+        top: 25rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
